@@ -20,7 +20,9 @@ nginx : 81
 
 ## Installation
 
-VPS Only (For Servers) : wget https://raw.githubusercontent.com/Klemenxer/LiteVPN/master/LiteVPN-SoloScript.sh && chmod +x LiteVPN-SoloScript.sh && ./LiteVPN-SoloScript.sh
+VPS Script: wget https://raw.githubusercontent.com/Klemenxer/LiteVPN/master/LiteVPN-SoloScript.sh && chmod +x LiteVPN-SoloScript.sh && ./LiteVPN-SoloScript.sh
+
+OCS Script: wget https://raw.githubusercontent.com/Klemenxer/LiteVPN/master/LiteVPN-OCSScript.sh && chmod +x LiteVPN-OCSScript.sh && ./LiteVPN-OCSScript.sh
 
 ## Credits
 
