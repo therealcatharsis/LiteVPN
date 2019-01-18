@@ -52,11 +52,11 @@ echo "I need to ask some questions before starting setup"
 echo "You can leave the default option and just hit enter if you agree with the option"
 echo ""
 echo "First I need to know the new password of MySQL root user:"
-read -p "Password: " -e -i clrkz DatabasePass
+read -p "Password: " -e -i root DatabasePass
 echo ""
 echo "Finally, name the Database Name for OCS Panels"
 echo " Please, use one word only, no special characters other than Underscore (_)"
-read -p "Database Name: " -e -i OCS_PANEL DatabaseName
+read -p "Database Name: " -e -i VPNDB DatabaseName
 echo ""
 echo "Okay, that's all I need. We are ready to setup your OCS Panels now"
 read -n1 -r -p "Press any key to continue..."
@@ -66,13 +66,12 @@ apt-get update -y
 apt-get install build-essential expect -y
 
 echo "clear" >> .bashrc
-echo 'echo -e "  _      _ _    __      _______  _   _ "' >> .bashrc
-echo 'echo -e " | |    (_) |   \ \    / /  __ \| \ | |"' >> .bashrc
-echo 'echo -e " | |     _| |_ __\ \  / /| |__) |  \| |"' >> .bashrc
-echo 'echo -e " | |    | | __/ _ \ \/ / |  ___/| . ` |"' >> .bashrc
-echo 'echo -e " | |____| | ||  __/\  /  | |    | |\  |"' >> .bashrc
-echo 'echo -e " |______|_|\__\___| \/   |_|    |_| \_|"' >> .bashrc
-echo 'echo -e "                   Powered by Klemenxer"' >> .bashrc
+echo 'echo -e "    __    _ __     _    ______  _   __"' >> .bashrc
+echo 'echo -e "   / /   (_) /____| |  / / __ \/ | / /"' >> .bashrc
+echo 'echo -e "  / /   / / __/ _ \ | / / /_/ /  |/ / "' >> .bashrc
+echo 'echo -e " / /___/ / /_/  __/ |/ / ____/ /|  /  "' >> .bashrc
+echo 'echo -e "/_____/_/\__/\___/|___/_/   /_/ |_/   "' >> .bashrc
+echo 'echo -e "                  Powered by Klemenxer"' >> .bashrc
 echo 'echo -e ""' >> .bashrc
 echo 'echo -e "Welcome to the LiteVPN Server"' >> .bashrc
 echo 'echo -e "Type menu to display a list of commands"' >> .bashrc
