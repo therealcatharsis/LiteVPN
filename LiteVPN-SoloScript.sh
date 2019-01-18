@@ -69,12 +69,11 @@ apt-get -y install nginx
 apt-get -y install nano iptables dnsutils openvpn screen whois ngrep unzip unrar
 
 echo "clear" >> .bashrc
-echo 'echo -e "  _      _ _    __      _______  _   _ "' >> .bashrc
-echo 'echo -e " | |    (_) |   \ \    / /  __ \| \ | |"' >> .bashrc
-echo 'echo -e " | |     _| |_ __\ \  / /| |__) |  \| |"' >> .bashrc
-echo 'echo -e " | |    | | __/ _ \ \/ / |  ___/| . ` |"' >> .bashrc
-echo 'echo -e " | |____| | ||  __/\  /  | |    | |\  |"' >> .bashrc
-echo 'echo -e " |______|_|\__\___| \/   |_|    |_| \_|"' >> .bashrc
+echo 'echo -e "    __    _ __     _    ______  _   __"' >> .bashrc
+echo 'echo -e "   / /   (_) /____| |  / / __ \/ | / /"' >> .bashrc
+echo 'echo -e "  / /   / / __/ _ \ | / / /_/ /  |/ / "' >> .bashrc
+echo 'echo -e " / /___/ / /_/  __/ |/ / ____/ /|  /  "' >> .bashrc
+echo 'echo -e "/_____/_/\__/\___/|___/_/   /_/ |_/   "' >> .bashrc
 echo 'echo -e "                   Powered by Klemenxer"' >> .bashrc
 echo 'echo -e ""' >> .bashrc
 echo 'echo -e "Welcome to the LiteVPN Server"' >> .bashrc
