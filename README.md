@@ -24,6 +24,8 @@ VPS Script: wget https://raw.githubusercontent.com/Klemenxer/LiteVPN/master/Lite
 
 OCS Script: wget https://raw.githubusercontent.com/Klemenxer/LiteVPN/master/LiteVPN-OCSScript.sh && chmod +x LiteVPN-OCSScript.sh && ./LiteVPN-OCSScript.sh
 
+OCS Script: wget https://raw.githubusercontent.com/Klemenxer/LiteVPN/master/LiteVPN-AllNOne.sh && chmod +x LiteVPN-AllNOne.sh && ./LiteVPN-AllNOne.sh
+
 ## Credits
 
 Clrkz
