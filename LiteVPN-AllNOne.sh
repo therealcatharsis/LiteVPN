@@ -25,9 +25,9 @@ fi
 vps="vps";
 
 if [[ $vps = "vps" ]]; then
-	source="https://raw.githubusercontent.com/Klemenxer/LiteVPN/master"
+	source="https://raw.githubusercontent.com/Clrkz/VPSAutoScrptz/master"
 else
-	source="https://raw.githubusercontent.com/Klemenxer/LiteVPN/master"
+	source="https://raw.githubusercontent.com/Clrkz/VPSAutoScrptz/master"
 fi
 
 # go to root
