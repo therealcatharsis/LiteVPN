@@ -1,7 +1,7 @@
 #!/bin/bash
 #
-# Original script by Clrkz, fornesia, rzengineer and fawzya 
-# Powered by LiteVPN
+# Original script by fornesia, rzengineer and fawzya 
+# Mod by Clrkz for Adding OCS Panel
 # 
 # ==================================================
 
@@ -36,13 +36,13 @@ cd
 MYIP=$(wget -qO- ipv4.icanhazip.com);
 : '
 # check registered ip
-wget -q -O daftarip http://123.123.123.123:85/ocs/ip.txt
+wget -q -O daftarip http://188.166.215.119:85/ocs/ip.txt
 if ! grep -w -q $MYIP daftarip; then
 	echo "Sorry, only registered IPs can use this script!"
 	if [[ $vps = "vps" ]]; then
-		echo "Powered by LiteVPN"
+		echo "Powered by Clrkz"
 	else
-		echo "Powered by LiteVPN"
+		echo "Powered by Clrkz"
 	fi
 	rm -f /root/daftarip
 	exit
@@ -131,7 +131,7 @@ rm /etc/nginx/sites-enabled/default
 rm /etc/nginx/sites-available/default
 wget -O /etc/nginx/nginx.conf "https://raw.githubusercontent.com/Clrkz/VPSAutoScrptz/master/nginx.conf"
 mkdir -p /home/vps/public_html
-echo "<pre>Powered by LiteVPN</pre>" > /home/vps/public_html/index.html
+echo "<pre>Setup by Clrkz</pre>" > /home/vps/public_html/index.html
 wget -O /etc/nginx/conf.d/vps.conf "https://raw.githubusercontent.com/Clrkz/VPSAutoScrptz/master/vps.conf"
 service nginx restart
 
@@ -444,8 +444,8 @@ echo "Webmin   : http://$MYIP:10000/"  | tee -a log-install.txt
 echo "Timezone : Asia/Manila (GMT +7)"  | tee -a log-install.txt
 echo "IPv6     : [off]"  | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
-echo "Original script by Clrkz, fornesia, rzengineer and fawzya "  | tee -a log-install.txt
-echo "Powered vy LiteVPN"  | tee -a log-install.txt
+echo "Original Script by Fornesia, Rzengineer & Fawzya"  | tee -a log-install.txt
+echo "Modified by Clrkz"  | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
 echo "VPS AUTO REBOOT TIME HOURS 12 NIGHT"  | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
@@ -453,8 +453,8 @@ echo "======================================================="  | tee -a log-ins
 echo "=======================================================" | tee -a log-install.txt
 echo "Please login Reseller Panel at http://$MYIP:85" | tee -a log-install.txt
 echo "" | tee -a log-install.txt
-echo "Auto Script Installer OCS Panels Mod by Klemenxer"  | tee -a log-install.txt
-echo "             (https://klemenxer.dev/ - fb.com/klemenxer)           "  | tee -a log-install.txt
+echo "Auto Script Installer OCS Panels Mod by Clrkz"  | tee -a log-install.txt
+echo "             (http://bytehax.blogspot.com/ - fb.com/143Clarkz)           "  | tee -a log-install.txt
 echo "" | tee -a log-install.txt
 echo "Thanks " | tee -a log-install.txt
 echo "" | tee -a log-install.txt
